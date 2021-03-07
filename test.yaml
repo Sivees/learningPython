@@ -1,0 +1,15 @@
+KS00005647:
+  firstName: "Kajser"
+  lastName: "Soze"
+  uuid: "9685b086-ffdd-4224-8e35-10d8ca604cfd"
+  skills:
+    - 'python'
+    - 'C#'
+    - 'C++'
+KS00004634:
+  FirstName: "john"
+  LasName: "Doe"
+  uuid: "9fe1fb33-130f-45f4-bcc1-e74a93845c1f"
+  skills:
+    - 'C#'
+    - 'C'

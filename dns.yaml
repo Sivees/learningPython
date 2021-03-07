@@ -1,0 +1,23 @@
+alpha.int:
+  SOA: ['IN', 'alph-adds-0010.alpha.int.', 'administrator.alpha.int.', 2021030101, 86400, 7200, 3600000, 3600]
+  NS:
+    alph-adds-0010.alpha.int.: ['IN', 21600]
+    alph-adds-0020.alpha.int.: ['IN', 21600]
+  SRV:
+    _ldap._tcp.alpha.int.:
+      alph-adds-0010.alpha.int.: ['IN', 10, 10, 389]
+      alph-adds-0020.alpha.int.: ['IN', 10, 10, 389]
+    _kerberos._tcp.alpha.int.:
+      alph-adds-0010.alpha.int.: ['IN', 10, 10, 88]
+      alph-adds-0020.alpha.int.: ['IN', 10, 10, 88]
+    _xmpp._tcp.alpha.int.:
+      alph-xmpp-0010.alpha.int.: ['IN', 10, 10, 5269]
+      alph-xmpp-0020.alpha.int.: ['IN', 10, 10, 5269]
+  MX:
+    alph-exch-0010: ['IN', 1936, 10]
+    alph-exch-0020: ['IN', 1936, 20]
+  A:
+    alph-adds-0010: ['IN',10.10.0.1]
+    alph-adds-0020: ['IN',10.10.0.2]
+    alph-exch-0010: ['IN',10.10.0.3]
+    alph-exch-0020: ['IN',10.10.0.4]

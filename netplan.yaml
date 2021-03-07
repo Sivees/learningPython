@@ -1,0 +1,36 @@
+network:
+  version: 2
+  ethernets:
+    enp0s3:
+      addresses:
+      - 10.10.0.181/24
+      gateway4: 10.10.0.254
+      nameservers:
+        addresses:
+        - 10.10.0.181
+        - 10.10.0.101
+        search:
+        - alpha.int
+        - warnet.int
+    enp0s4:
+      addresses:
+        - 10.10.10.181/24
+      gateway4: 10.10.10.254
+      nameservers:
+        addresses:
+          - 10.10.10.181
+          - 10.10.10.101
+        search:
+          - alpha.int
+          - warnet.int
+    enp0s5:
+      addresses:
+        - 10.10.20.181/24
+      gateway4: 10.10.20.254
+      nameservers:
+        addresses:
+          - 10.10.20.181
+          - 10.10.20.101
+        search:
+          - alpha.int
+          - warnet.int
