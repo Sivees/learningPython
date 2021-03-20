@@ -1,0 +1,54 @@
+{
+    "Attributes": [
+        {
+            "Name": "mcs-SC-Date-Of-Issue",
+            "Description": "Security Clearance date of issue",
+            "OID": "1.3.6.1.4.1.1978.10.10.11",
+            "DN": "mcsSCDateOfIssue",
+            "Syntax": "Case Insensitive String"
+        },
+        {
+            "Name": "mcs-SC-Issuer",
+            "Description": "Security Clearance Issuer",
+            "OID": "1.3.6.1.4.1.1978.10.10.12",
+            "DN": "mcsSCIssuer",
+            "Syntax": "Case Insensitive String"
+        },
+        {
+            "Name": "mcs-SC-Classification",
+            "Description": "Security Clearance Classification",
+            "OID": "1.3.6.1.4.1.1978.10.10.13",
+            "DN": "mcsSCClassification",
+            "Syntax": "Case Insensitive String"
+        },
+        {
+            "Name": "mcs-SC-Number",
+            "Description": "Security Clearance Serial Number",
+            "OID": "1.3.6.1.4.1.1978.10.14",
+            "DN": "mcsSCNumber",
+            "Syntax": "Case Insensitive String"
+        },
+        {
+            "Name": "mcs-ID-Number",
+            "Description": "Identity Document Number",
+            "OID": "1.3.6.1.4.1.1978.10.14",
+            "DN": "mcsIDNumber",
+            "Syntax": "Case Insensitive String"
+        },
+        {
+            "Name": "mcs-App-Form-Number",
+            "Description": "Application Form Number",
+            "OID": "1.3.6.1.4.1.1978.10.15",
+            "DN": "mcsAppFormNumber",
+            "Syntax": "Case Insensitive String"
+        }
+    ],
+    "Classes": [
+        {
+            "Name": "mcs-User",
+            "Description": "My Creative Space User",
+            "OID": "1.3.6.1.4.1.1978.20.11",
+            "DN": "mcsUser"
+        }
+    ]
+}
